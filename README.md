@@ -7,6 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Create separator sections
 - Make sure `<section>` is used
 - Resize / Optimized images
+- Add the :hover on teams
 
 ## Available Scripts
 
