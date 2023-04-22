@@ -1,0 +1,14 @@
+#header {
+  background-image: url("images/librairie.jpg");
+  background-size: cover;
+  filter: grayscale(50%);
+
+  .row {
+    min-height: 25vh;
+  }
+
+  h1 {
+    font-size: 12vh;
+    color: $white-smoke;
+  }
+}
