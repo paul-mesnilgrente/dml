@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <div id="header" className="mb-2">
+    <header id="header">
       <div className="container">
         <div className="row align-items-center">
           <div className="col">
@@ -8,7 +8,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 

@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## TODO
+
+- Create separator sections
+- Make sure `<section>` is used
+- Resize / Optimized images
+
 ## Available Scripts
 
 In the project directory, you can run:

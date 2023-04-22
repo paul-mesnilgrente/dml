@@ -1,11 +1,10 @@
 export default function Contact() {
   return (
     <section className="pb-5" id="contact">
-      <div className="container">
-        <h1 className="pt-3">Contact</h1>
-
+      <div className="container pt-3">
         <div className="row">
           <div className="col-xs-12 col-md-4">
+            <h1>Contact</h1>
             <address className="mb-3">
               <strong>Dans ma librairie</strong>
               <br />
@@ -44,7 +43,7 @@ export default function Contact() {
               title="Carte pointé avec Dans ma librairie"
               className="w-100"
               width="450"
-              height="250"
+              height="400"
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBvQZT8HUhTmBJCiYha7I2n8qT81f6SQeg&q=Dans ma librairie, 32 rue garonne, 47000 Agen"
               allowFullScreen
             ></iframe>

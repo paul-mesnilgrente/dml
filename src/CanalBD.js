@@ -2,8 +2,14 @@ import CanalBDImage from "./images/canal_bd.png";
 
 export default function CanalBD() {
   return (
-    <div className="container">
-      <h1>Achetez nos livres sur CanalBD</h1>
+    <section className="container">
+      <h1>Nos livres sur CanalBD</h1>
+
+      <ul>
+        <li>Aller sur CanalBD</li>
+        <li>Sélectionnez vos livres</li>
+        <li>La librairie vous livre</li>
+      </ul>
 
       <div className="text-center">
         <a
@@ -13,6 +19,6 @@ export default function CanalBD() {
           <img src={CanalBDImage} alt="CanalBD" />
         </a>
       </div>
-    </div>
+    </section>
   );
 }

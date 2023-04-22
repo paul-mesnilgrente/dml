@@ -1,7 +1,17 @@
 @import "./colors";
 @import "Header";
 @import "Member";
+@import "SectionSeparator";
 
 body {
   background-color: $white-smoke;
+}
+
+header,
+section {
+  margin-bottom: 10vh;
+}
+
+.section-hr {
+  margin-bottom: 10vh;
 }

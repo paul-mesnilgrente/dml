@@ -4,7 +4,7 @@ export default function Team() {
   return (
     <section id="equipe" className="pb-5">
       <div className="container">
-        <h1 className="pt-3">Equipe</h1>
+        <h1 className="pt-3">Équipe</h1>
         <div className="row">
           <div className="col">
             <Member

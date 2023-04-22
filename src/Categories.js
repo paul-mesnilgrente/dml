@@ -1,12 +1,12 @@
 function Categories() {
   return (
-    <div className="container">
+    <section className="container">
       <div className="row">
         <div className="col">
           <h1>BD</h1>
           <img
             className="img-fluid"
-            src="https://via.placeholder.com/150"
+            src="https://via.placeholder.com/300?text=Rayons BD"
             alt="Rayons BD"
           />
         </div>
@@ -14,7 +14,7 @@ function Categories() {
           <h1>Manga</h1>
           <img
             className="img-fluid"
-            src="https://via.placeholder.com/150"
+            src="https://via.placeholder.com/300?text=Rayons manga"
             alt="Rayons manga"
           />
         </div>
@@ -22,7 +22,7 @@ function Categories() {
           <h1>Jeunesse</h1>
           <img
             className="img-fluid"
-            src="https://via.placeholder.com/150"
+            src="https://via.placeholder.com/300?text=Rayons Jeunesse"
             alt="Rayons Jeunesse"
           />
         </div>
@@ -30,12 +30,12 @@ function Categories() {
           <h1>Autres</h1>
           <img
             className="img-fluid"
-            src="https://via.placeholder.com/150"
+            src="https://via.placeholder.com/300?text=Autres rayons"
             alt="Autres rayons"
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

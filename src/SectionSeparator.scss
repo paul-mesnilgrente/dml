@@ -1,0 +1,33 @@
+.section-separator {
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 30vh;
+  text-align: center;
+  color: white;
+
+  .row {
+    height: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.7);
+  }
+
+  figure {
+    blockquote {
+      font-size: 3rem;
+    }
+  }
+
+  &.one-piece {
+    background-image: url("images/one_piece.jpg");
+  }
+
+  &.tintin {
+    background-image: url("images/tintin.jpg");
+  }
+
+  &.harry-potter {
+    background-image: url("images/harry_potter.webp");
+  }
+}
