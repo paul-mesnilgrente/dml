@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/dml/static/css/main.3f644466.css",
+    "main.js": "/dml/static/js/main.30b1067d.js",
+    "static/js/787.718e4921.chunk.js": "/dml/static/js/787.718e4921.chunk.js",
+    "static/media/librairie.jpg": "/dml/static/media/librairie.248d1a8deca65d2a3fb2.jpg",
+    "static/media/one_piece.jpg": "/dml/static/media/one_piece.0e0dbe4eed3885bc05b9.jpg",
+    "static/media/harry_potter.webp": "/dml/static/media/harry_potter.f47fac83cf81dd4cdda8.webp",
+    "static/media/tintin.jpg": "/dml/static/media/tintin.e706d19a6cf7cb22f272.jpg",
+    "static/media/logo_region.png": "/dml/static/media/logo_region.415fe318d96641a5f172.png",
+    "static/media/logo_cnl.png": "/dml/static/media/logo_cnl.bc6b7cedfef9ec08d008.png",
+    "static/media/lina.jpg": "/dml/static/media/lina.c71541ff13901e3a70b2.jpg",
+    "static/media/logo_initiative.png": "/dml/static/media/logo_initiative.f65c0a8d05330fff9d10.png",
+    "static/media/logo_prefete.png": "/dml/static/media/logo_prefete.59fa690438839d9a93df.png",
+    "static/media/ecole_des_loisirs.jpg": "/dml/static/media/ecole_des_loisirs.998e57d4691d19831f57.jpg",
+    "static/media/label_lir.jpg": "/dml/static/media/label_lir.f540340ae22c05e854bc.jpg",
+    "static/media/librairie_sorciere.png": "/dml/static/media/librairie_sorciere.47480ab2d39cc21a0608.png",
+    "static/media/canal_bd.png": "/dml/static/media/canal_bd.6c30488951ce890b098c.png",
+    "index.html": "/dml/index.html",
+    "main.3f644466.css.map": "/dml/static/css/main.3f644466.css.map",
+    "main.30b1067d.js.map": "/dml/static/js/main.30b1067d.js.map",
+    "787.718e4921.chunk.js.map": "/dml/static/js/787.718e4921.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f644466.css",
+    "static/js/main.30b1067d.js"
+  ]
+}
