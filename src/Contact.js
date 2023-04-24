@@ -55,7 +55,7 @@ export default function Contact() {
           method="POST"
           className="col-xs-12 col-md-8"
         >
-          <h1>Envoyez nous un mail</h1>
+          <h1>Envoyez-nous un mail :)</h1>
           <input type="hidden" name="_language" value="fr" />
 
           <div class="mb-3">
@@ -98,7 +98,7 @@ export default function Contact() {
               class="form-control"
               id="message"
               name="message"
-              placeholder='Auriez vous le livre "Les créatures fantastiques" de Norbert Dragonneau ?'
+              placeholder='Auriez-vous le livre "Les créatures fantastiques" de Norbert Dragonneau ?'
               rows="6"
               required
             ></textarea>
