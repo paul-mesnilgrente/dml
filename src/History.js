@@ -1,6 +1,6 @@
 export default function History() {
   return (
-    <section className="container" id="historique">
+    <section className="container" id="histoire">
       <h1>Notre histoire</h1>
 
       <ol className="list-group mt-3">

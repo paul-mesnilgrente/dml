@@ -1,6 +1,6 @@
 function Categories() {
   return (
-    <section className="container">
+    <section className="container" id="rayons">
       <div className="row">
         <div className="col">
           <h1>Bande Dessinée</h1>

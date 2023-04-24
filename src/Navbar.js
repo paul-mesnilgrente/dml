@@ -1,9 +1,12 @@
+import Logo from "./images/logo_dans_ma_librairie.png";
+
 function Navbar() {
   return (
     <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="#root">
-          Dans ma librairie
+          <img src={Logo} alt="Bootstrap" width="30" height="24" /> Dans ma
+          librairie
         </a>
         <button
           className="navbar-toggler"
@@ -16,16 +19,19 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#rayons">
                 Rayons
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#historique">
-                Historique
+              <a className="nav-link" href="#histoire">
+                Histoire
               </a>
             </li>
             <li className="nav-item">
