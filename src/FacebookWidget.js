@@ -4,8 +4,8 @@ export default function FacebookWidget() {
       className="fb-page"
       data-href="https://www.facebook.com/profile.php?id=100027965817317"
       data-tabs="timeline,events"
-      data-width=""
-      data-height=""
+      data-width="500"
+      data-height="500"
       data-small-header="true"
       data-adapt-container-width="true"
       data-hide-cover="true"
@@ -15,7 +15,12 @@ export default function FacebookWidget() {
         cite="https://www.facebook.com/profile.php?id=100027965817317"
         className="fb-xfbml-parse-ignore"
       >
-        <a href="https://www.facebook.com/profile.php?id=100027965817317">
+        <a
+          className="fb-page__link"
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.facebook.com/profile.php?id=100027965817317"
+        >
           Dans ma librairie
         </a>
       </blockquote>

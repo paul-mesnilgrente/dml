@@ -1,0 +1,28 @@
+.fb-page {
+  max-width: 500px; // matches the attr data-width
+  height: 500px; // matches the attr data-height
+
+  background-color: turquoise;
+
+  // I tried naming it fb-page__blockquote but it breaks the widget
+  .fb-xfbml-parse-ignore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+  }
+
+  &__link {
+    display: block;
+
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+
+    font-size: calc(1.275rem + 0.3vw);
+  }
+}
