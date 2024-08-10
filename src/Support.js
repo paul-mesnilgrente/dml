@@ -9,7 +9,11 @@ import EcoleDesLoisirs from "./images/supporters/ecole_des_loisirs.jpg";
 export default function Support() {
   const supporters = [
     { name: "CanalBD", image_src: CanalBD },
-    { name: "Librairie Sorcière", image_src: LibrairieSorciere },
+    {
+      name: "Librairie Sorcière",
+      href: "https://www.librairies-sorcieres.fr/les-librairies/",
+      image_src: LibrairieSorciere,
+    },
     { name: "Label LIR", image_src: LabelLIR },
     { name: "LINA", image_src: LINA },
     {
