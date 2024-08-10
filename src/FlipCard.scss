@@ -21,7 +21,8 @@
     transform-style: preserve-3d;
   }
 
-  &:hover &__inner {
+  &:hover &__inner,
+  &--flipped &__inner {
     transform: rotateY(180deg);
   }
 

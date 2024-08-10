@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import { useState } from "react";
 
 export default function Member({
@@ -6,20 +7,26 @@ export default function Member({
   name,
   description,
 }) {
-  const [funny, setFunny] = useState(false);
+  const [flipped, setFlipped] = useState(false);
 
-  const switchImage = () => {
-    setFunny(!funny);
+  const switchFlipped = (e) => {
+    e.preventDefault();
+
+    setFlipped(!flipped);
   };
 
   return (
-    <div className="flip-card">
+    <div
+      role="button"
+      onClick={switchFlipped}
+      className={classNames("flip-card", { "flip-card--flipped": flipped })}
+    >
       <div className="flip-card__inner">
         <div className="flip-card__front">
           <div className="card h-100">
             <img
               src={normalImagePath}
-              onClick={switchImage}
+              onClick={switchFlipped}
               className="card-img-top"
               alt={name}
             />
@@ -34,7 +41,7 @@ export default function Member({
           <div className="card h-100">
             <img
               src={funnyImagePath}
-              onClick={switchImage}
+              onClick={switchFlipped}
               className="card-img-top"
               alt={name}
             />
