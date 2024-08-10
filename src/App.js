@@ -9,13 +9,17 @@ import Contact from "./Contact";
 import Support from "./Support";
 import Partners from "./Partners";
 import SectionSeparator from "./SectionSeparator";
+import SocialMedias from "./SocialMedias";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Header />
+
       <CanalBD />
+      <hr className="section-hr" />
+      <SocialMedias />
 
       <SectionSeparator
         className="one-piece"
