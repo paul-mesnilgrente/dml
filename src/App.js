@@ -37,9 +37,9 @@ function App() {
         text="Tu es un sorcier Harry"
         author="Hagrid - Harry Potter à l'école des sorciers (J.K. Rowling)"
       />
-      <Support />
-      <hr className="section-hr" />
       <Partners />
+      <hr className="section-hr" />
+      <Support />
     </div>
   );
 }
