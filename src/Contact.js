@@ -58,13 +58,13 @@ export default function Contact() {
           <h1>Envoyez-nous un mail :)</h1>
           <input type="hidden" name="_language" value="fr" />
 
-          <div class="mb-3">
-            <label className="form-label" for="name">
+          <div className="mb-3">
+            <label className="form-label" htmlFor="name">
               Nom/Prénom
             </label>
             <input
               type="name"
-              class="form-control"
+              className="form-control"
               id="email"
               aria-describedby="Nom et prénom"
               name="name"
@@ -72,30 +72,30 @@ export default function Contact() {
               required
             />
           </div>
-          <div class="mb-3">
-            <label className="form-label" for="email">
+          <div className="mb-3">
+            <label className="form-label" htmlFor="email">
               Adresse email
             </label>
             <input
               type="email"
-              class="form-control"
+              className="form-control"
               id="email"
               aria-describedby="emailHelp"
               name="email"
               placeholder="hagrid@poudlard.co.uk"
               required
             />
-            <small id="emailHelp" class="form-text">
+            <small id="emailHelp" className="form-text">
               Cette adresse email ne sera jamais partagée.
             </small>
           </div>
-          <div class="mb-3">
-            <label className="form-label" for="message">
+          <div className="mb-3">
+            <label className="form-label" htmlFor="message">
               Message
             </label>
             <textarea
               type="password"
-              class="form-control"
+              className="form-control"
               id="message"
               name="message"
               placeholder='Auriez-vous le livre "Les créatures fantastiques" de Norbert Dragonneau ?'
@@ -105,11 +105,11 @@ export default function Contact() {
           </div>
 
           <div
-            class="g-recaptcha"
+            className="g-recaptcha"
             data-sitekey="6LfwqtIZAAAAALnU9OrBleanMX0b-Sv8dWpx0vvn"
           ></div>
 
-          <button type="submit" class="btn btn-primary mt-2">
+          <button type="submit" className="btn btn-primary mt-2">
             Envoyer
           </button>
         </form>

@@ -7,7 +7,7 @@ export default function CanalBD() {
         <div className="col-12 col-md-6">
           <h1>Nos livres sur CanalBD</h1>
 
-          <ul class="fs-4 list-unstyled">
+          <ul className="fs-4 list-unstyled">
             <li>Commande en ligne</li>
             <li>Retrait en librairie</li>
             <li>La librairie vous livre</li>

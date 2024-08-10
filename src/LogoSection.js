@@ -13,7 +13,11 @@ export default function LogoSection({ title, logos, ...props }) {
           const elemProps = logo.href == undefined ? {} : linkProps;
 
           return (
-            <Elem {...elemProps} className="col-4 col-md-2 mb-2">
+            <Elem
+              key={logo.name}
+              {...elemProps}
+              className="col-4 col-md-2 mb-2"
+            >
               <img className="img-fluid" src={logo.image_src} alt={logo.name} />
             </Elem>
           );

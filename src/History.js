@@ -3,7 +3,7 @@ export default function History() {
     { date: "-9000 avant J.-C.", description: "Découverte de l'écriture" },
     { date: "1454", description: "Invention de l'imprimerie par Gutenberg" },
     { date: "1997", description: 'Création de "BD Bulle"' },
-    { date: "2009", description: "Découverte de l'écriture" },
+    { date: "2009", description: 'Changement de nom "Dans ma librairie"' },
     { date: "2021", description: "Rachat par Grégory et Julie" },
   ];
   return (
@@ -12,7 +12,10 @@ export default function History() {
 
       <ol className="list-group mt-3">
         {events.map((event) => (
-          <li className="list-group-item d-flex justify-content-between align-items-start">
+          <li
+            key={event.description}
+            className="list-group-item d-flex justify-content-between align-items-start"
+          >
             <div className="ms-2 me-auto">
               <div className="fw-bold">{event.date}</div>
               {event.description}
