@@ -1,8 +1,8 @@
-import CanalBD from "./images/canal_bd.png";
-import LibrairieSorciere from "./images/librairie_sorciere.png";
-import LabelLIR from "./images/label_lir.jpg";
-import LINA from "./images/lina.jpg";
-import EcoleDesLoisirs from "./images/ecole_des_loisirs.jpg";
+import CanalBD from "./images/supporters/canal_bd.png";
+import LibrairieSorciere from "./images/supporters/librairie_sorciere.png";
+import LabelLIR from "./images/supporters/label_lir.jpg";
+import LINA from "./images/supporters/lina.jpg";
+import EcoleDesLoisirs from "./images/supporters/ecole_des_loisirs.jpg";
 
 export default function Support() {
   return (
