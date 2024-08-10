@@ -1,0 +1,37 @@
+.flip-cards-container {
+  display: grid;
+  grid-gap: 1.5rem;
+
+  grid-template-columns: 1fr;
+  @include media-breakpoint-up(sm) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @include media-breakpoint-up(lg) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.flip-card {
+  overflow: hidden;
+  perspective: 1000px;
+
+  &__inner {
+    display: grid;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+
+  &:hover &__inner {
+    transform: rotateY(180deg);
+  }
+
+  &__front,
+  &__back {
+    grid-area: 1/1;
+    backface-visibility: hidden;
+  }
+
+  &__back {
+    transform: rotateY(180deg);
+  }
+}

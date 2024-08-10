@@ -14,39 +14,31 @@ export default function Team() {
     <section id="equipe" className="pb-5">
       <div className="container">
         <h1 className="pt-3">Équipe</h1>
-        <div className="row">
-          <div className="col">
-            <Member
-              normalImagePath={Gregory}
-              funnyImagePath={GregoryFun}
-              name="Grégory"
-              description="Responsable"
-            />
-          </div>
-          <div className="col">
-            <Member
-              normalImagePath={Julie}
-              funnyImagePath={JulieFun}
-              name="Julie"
-              description="Évementielle et communication"
-            />
-          </div>
-          <div className="col">
-            <Member
-              normalImagePath={Violene}
-              funnyImagePath={VioleneFun}
-              name="Violène"
-              description="Jeunesse"
-            />
-          </div>
-          <div className="col">
-            <Member
-              normalImagePath={Maeva}
-              funnyImagePath={MaevaFun}
-              name="Maëva"
-              description="Manga"
-            />
-          </div>
+        <div className="flip-cards-container">
+          <Member
+            normalImagePath={Gregory}
+            funnyImagePath={GregoryFun}
+            name="Grégory"
+            description="Responsable"
+          />
+          <Member
+            normalImagePath={Julie}
+            funnyImagePath={JulieFun}
+            name="Julie"
+            description="Évementielle et communication"
+          />
+          <Member
+            normalImagePath={Violene}
+            funnyImagePath={VioleneFun}
+            name="Violène"
+            description="Jeunesse"
+          />
+          <Member
+            normalImagePath={Maeva}
+            funnyImagePath={MaevaFun}
+            name="Maëva"
+            description="Manga"
+          />
         </div>
       </div>
     </section>
