@@ -35,5 +35,7 @@ export default function Partners() {
     },
   ];
 
-  return <LogoSection title="Nos partenaires" logos={partners} />;
+  return (
+    <LogoSection id="partenaires" title="Nos partenaires" logos={partners} />
+  );
 }

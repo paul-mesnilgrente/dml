@@ -1,6 +1,6 @@
-export default function LogoSection({ title, logos }) {
+export default function LogoSection({ title, logos, ...props }) {
   return (
-    <section className="container">
+    <section className="container" {...props}>
       <h1 className="mb-4">{title}</h1>
       <div className="row justify-content-evenly align-items-center">
         {logos.map((logo) => {
