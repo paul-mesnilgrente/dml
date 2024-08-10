@@ -2,7 +2,7 @@ import Logo from "./images/logo_dans_ma_librairie.png";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
+    <nav className="navbar navbar-dark navbar-expand-lg fixed-top bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="#root">
           <img src={Logo} alt="Bootstrap" width="30" height="24" /> Dans ma
