@@ -9,8 +9,8 @@ export default function LogoSection({ title, logos, ...props }) {
             target: "_blank",
             rel: "noreferrer",
           };
-          const Elem = logo.href == undefined ? "div" : "a";
-          const elemProps = logo.href == undefined ? {} : linkProps;
+          const Elem = logo.href === undefined ? "div" : "a";
+          const elemProps = logo.href === undefined ? {} : linkProps;
 
           return (
             <Elem
