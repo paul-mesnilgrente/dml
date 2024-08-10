@@ -1,5 +1,14 @@
 import Member from "./Member";
 
+import Gregory from "./images/portraits/gregory.jpg";
+import GregoryFun from "./images/portraits/gregory_fun.jpg";
+import Julie from "./images/portraits/julie.jpg";
+import JulieFun from "./images/portraits/julie_fun.jpg";
+import Violene from "./images/portraits/violene.jpg";
+import VioleneFun from "./images/portraits/violene_fun.jpg";
+import Maeva from "./images/portraits/maeva.jpg";
+import MaevaFun from "./images/portraits/maeva_fun.jpg";
+
 export default function Team() {
   return (
     <section id="equipe" className="pb-5">
@@ -8,26 +17,34 @@ export default function Team() {
         <div className="row">
           <div className="col">
             <Member
-              normalImagePath="https://via.placeholder.com/300?text=Grégorie"
-              funnyImagePath="https://via.placeholder.com/300?text=Funny Grégorie"
-              name="Grégorie"
-              description="PDG"
+              normalImagePath={Gregory}
+              funnyImagePath={GregoryFun}
+              name="Grégory"
+              description="Responsable"
             />
           </div>
           <div className="col">
             <Member
-              normalImagePath="https://via.placeholder.com/300?text=Julie"
-              funnyImagePath="https://via.placeholder.com/300?text=Funny Julie"
+              normalImagePath={Julie}
+              funnyImagePath={JulieFun}
               name="Julie"
-              description="PDG en chef"
+              description="Évementielle et communication"
             />
           </div>
           <div className="col">
             <Member
-              normalImagePath="https://via.placeholder.com/300?text=Violène"
-              funnyImagePath="https://via.placeholder.com/300?text=Funny Violène"
+              normalImagePath={Violene}
+              funnyImagePath={VioleneFun}
               name="Violène"
-              description="Employé en charge"
+              description="Jeunesse"
+            />
+          </div>
+          <div className="col">
+            <Member
+              normalImagePath={Maeva}
+              funnyImagePath={MaevaFun}
+              name="Maëva"
+              description="Manga"
             />
           </div>
         </div>
