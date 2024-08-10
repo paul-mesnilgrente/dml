@@ -1,11 +1,19 @@
 {
   "files": {
-    "main.css": "/dml/static/css/main.907f7ea6.css",
-    "main.js": "/dml/static/js/main.9dc00723.js",
-    "static/js/787.718e4921.chunk.js": "/dml/static/js/787.718e4921.chunk.js",
+    "main.css": "/dml/static/css/main.724b3228.css",
+    "main.js": "/dml/static/js/main.a884539c.js",
+    "static/js/787.683897db.chunk.js": "/dml/static/js/787.683897db.chunk.js",
     "static/media/librairie.jpg": "/dml/static/media/librairie.248d1a8deca65d2a3fb2.jpg",
+    "static/media/maeva_fun.jpg": "/dml/static/media/maeva_fun.36e79b23b1bab0427e14.jpg",
+    "static/media/julie.jpg": "/dml/static/media/julie.fef87286f44378badbcc.jpg",
+    "static/media/gregory.jpg": "/dml/static/media/gregory.6c56728df920e0567cb1.jpg",
+    "static/media/violene_fun.jpg": "/dml/static/media/violene_fun.de8e41a305586b0f4ca2.jpg",
+    "static/media/julie_fun.jpg": "/dml/static/media/julie_fun.dac903a630040c99bb4a.jpg",
     "static/media/one_piece.jpg": "/dml/static/media/one_piece.0e0dbe4eed3885bc05b9.jpg",
     "static/media/harry_potter.webp": "/dml/static/media/harry_potter.f47fac83cf81dd4cdda8.webp",
+    "static/media/gregory_fun.jpg": "/dml/static/media/gregory_fun.d554397f18376ce8b8b6.jpg",
+    "static/media/violene.jpg": "/dml/static/media/violene.9bc7face3b6e96ea4d75.jpg",
+    "static/media/maeva.jpg": "/dml/static/media/maeva.9d607e3cc275264880bd.jpg",
     "static/media/tintin.jpg": "/dml/static/media/tintin.e706d19a6cf7cb22f272.jpg",
     "static/media/logo_region.png": "/dml/static/media/logo_region.415fe318d96641a5f172.png",
     "static/media/logo_cnl.png": "/dml/static/media/logo_cnl.bc6b7cedfef9ec08d008.png",
@@ -18,12 +26,12 @@
     "static/media/librairie_sorciere.png": "/dml/static/media/librairie_sorciere.47480ab2d39cc21a0608.png",
     "static/media/canal_bd.png": "/dml/static/media/canal_bd.6c30488951ce890b098c.png",
     "index.html": "/dml/index.html",
-    "main.907f7ea6.css.map": "/dml/static/css/main.907f7ea6.css.map",
-    "main.9dc00723.js.map": "/dml/static/js/main.9dc00723.js.map",
-    "787.718e4921.chunk.js.map": "/dml/static/js/787.718e4921.chunk.js.map"
+    "main.724b3228.css.map": "/dml/static/css/main.724b3228.css.map",
+    "main.a884539c.js.map": "/dml/static/js/main.a884539c.js.map",
+    "787.683897db.chunk.js.map": "/dml/static/js/787.683897db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.907f7ea6.css",
-    "static/js/main.9dc00723.js"
+    "static/css/main.724b3228.css",
+    "static/js/main.a884539c.js"
   ]
 }
