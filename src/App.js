@@ -1,4 +1,3 @@
-import "./App.scss";
 import Navbar from "./Navbar";
 import Header from "./Header";
 import CanalBD from "./CanalBD";

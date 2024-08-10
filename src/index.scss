@@ -1,2 +1,17 @@
 // Import Bootstrap and its default variables
-@import '~bootstrap/scss/bootstrap.scss';
+@import "~bootstrap/scss/bootstrap.scss";
+@import "./colors";
+@import "FlipCard";
+@import "Header";
+@import "Separator";
+
+body {
+  background-color: $body-background;
+  padding-top: 56px;
+}
+
+header,
+section,
+.section-hr {
+  margin-bottom: 10vh;
+}
