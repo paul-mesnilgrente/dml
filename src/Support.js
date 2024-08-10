@@ -26,5 +26,10 @@ export default function Support() {
     },
   ];
 
-  return <LogoSection title="Avec le soutien de" logos={supporters} />;
+  return (
+    <LogoSection
+      title='"Dans ma librairie" membre des réseaux'
+      logos={supporters}
+    />
+  );
 }
