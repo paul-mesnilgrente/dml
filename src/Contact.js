@@ -28,10 +28,10 @@ export default function Contact() {
 
           <dl className="row">
             <dt className="col-sm-3">Lundi</dt>
-            <dd className="col-sm-9">15h00 - 18h45</dd>
+            <dd className="col-sm-9">15h00 - 19h</dd>
 
             <dt className="col-sm-3">Mardi au samedi</dt>
-            <dd className="col-sm-9">10h30 - 12h30 / 14h - 18h45</dd>
+            <dd className="col-sm-9">10h30 - 12h30 / 14h - 19h</dd>
 
             <dt className="col-sm-3">Dimanche</dt>
             <dd className="col-sm-9">FERMÉ</dd>
