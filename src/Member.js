@@ -22,14 +22,9 @@ export default function Member({
       className={classNames("flip-card", { "flip-card--flipped": flipped })}
     >
       <div className="flip-card__inner">
-        <div className="flip-card__front">
+        <div onClick={switchFlipped} className="flip-card__front">
           <div className="card h-100">
-            <img
-              src={normalImagePath}
-              onClick={switchFlipped}
-              className="card-img-top"
-              alt={name}
-            />
+            <img src={normalImagePath} className="card-img-top" alt={name} />
             <div className="card-body">
               <h5 className="card-title">{name}</h5>
               <p className="card-text">{description}</p>
@@ -37,14 +32,9 @@ export default function Member({
           </div>
         </div>
 
-        <div className="flip-card__back">
+        <div onClick={switchFlipped} className="flip-card__back">
           <div className="card h-100">
-            <img
-              src={funnyImagePath}
-              onClick={switchFlipped}
-              className="card-img-top"
-              alt={name}
-            />
+            <img src={funnyImagePath} className="card-img-top" alt={name} />
             <div className="card-body">
               <h5 className="card-title">{name}</h5>
               <p className="card-text">{description}</p>
