@@ -25,7 +25,7 @@ export default function Team() {
             normalImagePath={Julie}
             funnyImagePath={JulieFun}
             name="Julie"
-            description="Évementielle et communication"
+            description="Évenementielle et communication"
           />
           <Member
             normalImagePath={Violene}
@@ -36,7 +36,7 @@ export default function Team() {
           <Member
             normalImagePath={Maeva}
             funnyImagePath={MaevaFun}
-            name="Maëva"
+            name="Maéva"
             description="Manga"
           />
         </div>
