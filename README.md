@@ -2,12 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## TODO
+## HOW TO DEPLOY
 
-- Create separator sections
-- Make sure `<section>` is used
-- Resize / Optimized images
-- Add the :hover on teams
+```bash
+npm run predeploy
+npm run deploy
+```
 
 ## Available Scripts
 
