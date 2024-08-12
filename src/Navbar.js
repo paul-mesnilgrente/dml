@@ -1,6 +1,17 @@
+import { useRef } from "react";
+import { Collapse } from "bootstrap";
+
 import Logo from "./images/logo_dans_ma_librairie.png";
 
 function Navbar() {
+  const navRef = useRef(null);
+  const handleClick = () => {
+    const bsCollapse = Collapse.getOrCreateInstance(navRef.current);
+    bsCollapse.toggle();
+  };
+
+  const links = ["Rayons", "Histoire", "Équipe", "Contact", "Partenaires"];
+
   return (
     <nav className="navbar navbar-dark navbar-expand-lg fixed-top bg-dark">
       <div className="container-fluid">
@@ -12,8 +23,8 @@ function Navbar() {
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-bs-target="#global-nav"
+          aria-controls="global-nav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
@@ -21,34 +32,24 @@ function Navbar() {
         </button>
         <div
           className="collapse navbar-collapse justify-content-end"
-          id="navbarSupportedContent"
+          ref={navRef}
+          id="global-nav"
         >
           <ul className="navbar-nav mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#rayons">
-                Rayons
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#histoire">
-                Histoire
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#equipe">
-                Équipe
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#contact">
-                Contact
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#partenaires">
-                Partenaires
-              </a>
-            </li>
+            {links.map((link) => (
+              <li key={link} className="nav-item">
+                <a
+                  onClick={handleClick}
+                  className="nav-link"
+                  href={`#${link
+                    .toLowerCase()
+                    .normalize("NFD")
+                    .replace(/\p{Diacritic}/gu, "")}`}
+                >
+                  {link}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
