@@ -1,14 +1,21 @@
-#header {
+$larantuka-gap: 1rem;
+
+.header {
   background-image: url("images/librairie.jpg");
   background-size: cover;
   filter: grayscale(50%);
+  padding-top: $larantuka-gap;
+  padding-bottom: $larantuka-gap;
 
   .row {
     min-height: 25vh;
   }
 
   h1 {
+    font-family: "larantuka-regular-400";
+    text-transform: capitalize;
     font-size: 12vh;
-    color: $body-background;
+    margin-bottom: -$larantuka-gap;
+    color: $header-color;
   }
 }

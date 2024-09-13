@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header id="header">
+    <header className="header">
       <div className="container">
         <div className="row align-items-center">
           <div className="col">
