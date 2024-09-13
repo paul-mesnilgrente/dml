@@ -18,8 +18,8 @@ export default function Support() {
       href: "https://www.librairies-sorcieres.fr/les-librairies/",
       image_src: LibrairieSorciere,
     },
-    { name: "Label LIR", image_src: LabelLIR },
     { name: "LINA", image_src: LINA },
+    { name: "Label LIR", image_src: LabelLIR },
     {
       name: "Librairie référente de l'école des loisirs",
       image_src: EcoleDesLoisirs,
