@@ -3,7 +3,7 @@ function Categories() {
     <section className="container" id="rayons">
       <div className="row">
         <div className="col">
-          <h1>Bande Dessinée</h1>
+          <h1>BD</h1>
           <img
             className="img-fluid"
             src="https://via.placeholder.com/300?text=Rayons BD"
