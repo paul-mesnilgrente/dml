@@ -36,7 +36,7 @@ export default function Contact() {
             <dt className="col-sm-3">Dimanche</dt>
             <dd className="col-sm-9">FERMÉ</dd>
           </dl>
-          <p class="fw-bold">Fermés les jours fériés</p>
+          <p className="fw-bold">Fermés les jours fériés</p>
         </div>
         <div className="col-xs-12 col-md-8">
           <iframe
