@@ -2,7 +2,7 @@ import CanalBDImage from "./images/supporters/canal_bd.png";
 
 export default function CanalBD() {
   return (
-    <section className="container">
+    <section className="container canalbd">
       <div className="row align-items-center">
         <div className="col-12 col-md-6">
           <h1>Nos livres sur CanalBD</h1>
@@ -31,7 +31,11 @@ export default function CanalBD() {
             rel="noreferrer"
             alt="Dans ma librairie sur CanalBD"
           >
-            <img src={CanalBDImage} alt="CanalBD" className="img-fluid" />
+            <img
+              src={CanalBDImage}
+              alt="CanalBD"
+              className="img-fluid canalbd__logo"
+            />
           </a>
         </div>
       </div>
