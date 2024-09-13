@@ -8,7 +8,17 @@ export default function CanalBD() {
           <h1>Nos livres sur CanalBD</h1>
 
           <ul className="fs-4 list-unstyled">
-            <li>Commandez en ligne et:</li>
+            <li>
+              <a
+                href="https://www.canalbd.net/dans-ma-librairie"
+                target="_blank"
+                rel="noreferrer"
+                alt="Dans ma librairie sur CanalBD"
+              >
+                Commandez
+              </a>{" "}
+              en ligne et:
+            </li>
             <li>Récuperez vos livres en librairie ou</li>
             <li>La librairie vous les expédie</li>
           </ul>
@@ -21,7 +31,7 @@ export default function CanalBD() {
             rel="noreferrer"
             alt="Dans ma librairie sur CanalBD"
           >
-            <img src={CanalBDImage} alt="CanalBD" />
+            <img src={CanalBDImage} alt="CanalBD" className="img-fluid" />
           </a>
         </div>
       </div>
