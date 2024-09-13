@@ -19,13 +19,13 @@ export default function Team() {
             normalImagePath={Gregory}
             funnyImagePath={GregoryFun}
             name="Grégory"
-            description="Responsable"
+            description="Boss"
           />
           <Member
             normalImagePath={Julie}
             funnyImagePath={JulieFun}
             name="Julie"
-            description="Évenementielle et communication"
+            description="Chef"
           />
           <Member
             normalImagePath={Violene}
