@@ -1,7 +1,7 @@
 import LogoSection from "./LogoSection";
 
 import CanalBD from "./images/supporters/canal_bd.png";
-import LibrairieSorciere from "./images/supporters/librairie_sorciere.png";
+import LibrairieSorciere from "./images/supporters/librairie_sorciere.jpg";
 import LabelLIR from "./images/supporters/label_lir.jpg";
 import LINA from "./images/supporters/lina.jpg";
 import EcoleDesLoisirs from "./images/supporters/ecole_des_loisirs.jpg";
@@ -18,10 +18,19 @@ export default function Support() {
       href: "https://www.librairies-sorcieres.fr/les-librairies/",
       image_src: LibrairieSorciere,
     },
-    { name: "LINA", image_src: LINA },
-    { name: "Label LIR", image_src: LabelLIR },
+    {
+      name: "LINA",
+      href: "https://www.librairies-nouvelleaquitaine.com/",
+      image_src: LINA,
+    },
+    {
+      name: "Label LIR",
+      href: "https://livre.ciclic.fr/actualites/label-lir-libraire-independante-de-reference-0",
+      image_src: LabelLIR,
+    },
     {
       name: "Librairie référente de l'école des loisirs",
+      href: "https://www.ecoledesloisirs.fr",
       image_src: EcoleDesLoisirs,
     },
   ];
