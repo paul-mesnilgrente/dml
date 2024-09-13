@@ -1,5 +1,6 @@
 import classNames from "classnames";
-import { useState } from "react";
+import { useState } from "preact/hooks";
+import "./FlipCard.scss";
 
 export default function Member({
   normalImagePath,

@@ -2,6 +2,7 @@
 /* https://www.color-blindness.com/color-name-hue/ */
 
 // from provided images
+$white: #ffffff;
 $varden: #fef5de;
 $wewak: #f5928c;
 $moody-blue: #7082c4;
@@ -10,13 +11,3 @@ $moody-blue: #7082c4;
 $oasis: #fbe6bf;
 $flamingo: #df6b4e;
 $east-bay: #464c70;
-
-// used in other files for provided images
-// $body-background: $varden;
-// $header-color: $wewak;
-// $title-color: $moody-blue;
-
-// used in other files for provided PDF
-$body-background: $oasis;
-$header-color: $flamingo;
-$title-color: $east-bay;

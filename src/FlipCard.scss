@@ -3,10 +3,12 @@
   grid-gap: 1.5rem;
 
   grid-template-columns: 1fr;
-  @include media-breakpoint-up(sm) {
+  @media (min-width: 576px) {
+    // @media (min-width: var(--bs-breakpoint-sm)) { // currently can't use var in media queries
     grid-template-columns: 1fr 1fr;
   }
-  @include media-breakpoint-up(lg) {
+  @media (min-width: 992px) {
+    // @media (min-width: var(--bs-breakpoint-lg)) { // currently can't use var in media queries
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }

@@ -1,7 +1,6 @@
-import { useRef } from "react";
 import { Collapse } from "bootstrap";
-
-import Logo from "./images/logo_dans_ma_librairie.png";
+import { useRef } from "preact/hooks";
+import Logo from "./assets/images/logo_dans_ma_librairie.png";
 
 function Navbar() {
   const navRef = useRef(null);

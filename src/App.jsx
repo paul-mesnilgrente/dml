@@ -1,3 +1,5 @@
+import "./App.scss";
+
 import Navbar from "./Navbar";
 import Header from "./Header";
 import CanalBD from "./CanalBD";
@@ -10,7 +12,7 @@ import Partners from "./Partners";
 import SectionSeparator from "./SectionSeparator";
 import SocialMedias from "./SocialMedias";
 
-function App() {
+export function App() {
   return (
     <div className="App">
       <Navbar />
@@ -52,5 +54,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

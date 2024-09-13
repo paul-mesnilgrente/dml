@@ -1,10 +1,10 @@
 import LogoSection from "./LogoSection";
 
-import LogoCNL from "./images/partners/logo_cnl.png";
-import LogoRegion from "./images/partners/logo_region.png";
-import LogoPrefete from "./images/partners/logo_prefete.png";
-import LogoInitiative from "./images/partners/logo_initiative.png";
-import LogoADELC from "./images/partners/logo_adelc.png";
+import LogoCNL from "./assets/images/partners/logo_cnl.png";
+import LogoRegion from "./assets/images/partners/logo_region.png";
+import LogoPrefete from "./assets/images/partners/logo_prefete.png";
+import LogoInitiative from "./assets/images/partners/logo_initiative.png";
+import LogoADELC from "./assets/images/partners/logo_adelc.png";
 
 export default function Partners() {
   const partners = [

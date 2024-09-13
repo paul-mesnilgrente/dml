@@ -1,3 +1,4 @@
 :root {
   --bs-font-sans-serif: "arciform", #{inspect($font-family-sans-serif)};
+  --bs-heading-color: var(--dml-heading-color);
 }

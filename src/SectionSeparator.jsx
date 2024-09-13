@@ -1,3 +1,5 @@
+import "./Separator.scss";
+
 export default function SectionSeparator({ className, text, author }) {
   return (
     <section className={`container-fluid separator ${className}`}>

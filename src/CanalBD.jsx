@@ -1,4 +1,5 @@
-import CanalBDImage from "./images/supporters/canal_bd.png";
+import CanalBDImage from "./assets/images/supporters/canal_bd.png";
+import "./CanalBD.scss";
 
 export default function CanalBD() {
   return (

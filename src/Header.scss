@@ -1,12 +1,12 @@
 .header {
-  background-image: url("images/librairie.jpg");
+  background-image: url("assets/images/librairie.jpg");
   padding: 0.5rem;
   background-size: cover;
   filter: grayscale(50%);
   min-height: 20vh;
 
   &__title-container {
-    background-image: url("images/bubble_background.svg");
+    background-image: url("assets/images/bubble_background.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -23,7 +23,7 @@
   &__title {
     font-family: "larantuka-regular-400";
     text-transform: capitalize;
-    color: $header-color;
+    color: var(--dml-header-color);
     line-height: 2;
     margin-bottom: max(-3vw, -2rem);
     font-size: min(10vw, 4rem);

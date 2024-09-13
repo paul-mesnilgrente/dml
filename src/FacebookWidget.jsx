@@ -1,3 +1,5 @@
+import "./FacebookWidget.scss";
+
 export default function FacebookWidget() {
   return (
     <div

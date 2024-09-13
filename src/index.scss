@@ -1,43 +1,10 @@
-// Modules
-@import "./stylesheets/modules/colors";
-@import "./stylesheets/modules/fonts";
-
 // Libraries
-@import "~bootstrap/scss/bootstrap";
+@import "bootstrap/scss/bootstrap";
 
 // Bootstrap overrides
-@import "./stylesheets/bootstrap/root";
+@import "./assets/stylesheets/bootstrap/root";
 
-// Custom components
-@import "CanalBD";
-@import "FlipCard";
-@import "FacebookWidget";
-@import "Header";
-@import "Separator";
-
-body {
-  background-color: $body-background;
-  padding-top: 56px;
-}
-
-header,
-section,
-.section-hr {
-  margin-bottom: 10vh;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  font-family: "eembuhlah";
-  color: $title-color;
-}
+// Modules
+@import "./assets/stylesheets/modules/colors";
+@import "./assets/stylesheets/modules/fonts";
+@import "./assets/stylesheets/modules/variables";
