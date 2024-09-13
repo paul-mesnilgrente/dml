@@ -1,21 +1,36 @@
-$larantuka-gap: 1rem;
-
 .header {
   background-image: url("images/librairie.jpg");
+  padding: 1rem;
   background-size: cover;
   filter: grayscale(50%);
-  padding-top: $larantuka-gap;
-  padding-bottom: $larantuka-gap;
+  min-height: 25vh;
 
-  .row {
-    min-height: 25vh;
+  &__title-container {
+    background-image: url("images/bubble_background.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    width: fit-content;
+
+    margin: 0 auto;
+    box-sizing: content-box;
+
+    padding: 2rem;
+    padding-bottom: 3rem;
   }
 
-  h1 {
+  &__title {
+    width: 100%;
     font-family: "larantuka-regular-400";
     text-transform: capitalize;
-    font-size: 12vh;
-    margin-bottom: -$larantuka-gap;
     color: $header-color;
+    line-height: 2;
+    height: 5rem;
+    font-size: 4rem;
+  }
+
+  &__subtitle {
+    font-size: 1.8rem; // size chosen to match title width
   }
 }
