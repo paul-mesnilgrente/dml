@@ -10,7 +10,7 @@ export default function CanalBD() {
           <ul className="fs-4 list-unstyled">
             <li>
               <a
-                href="https://www.canalbd.net/dans-ma-librairie"
+                href="https://canalbd.kamael.com/dans-ma-librairie/"
                 target="_blank"
                 rel="noreferrer"
                 alt="Dans ma librairie sur CanalBD"
@@ -26,7 +26,7 @@ export default function CanalBD() {
 
         <div className="col-12 col-md-6 text-center">
           <a
-            href="https://www.canalbd.net/dans-ma-librairie"
+            href="https://canalbd.kamael.com/dans-ma-librairie/"
             target="_blank"
             rel="noreferrer"
             alt="Dans ma librairie sur CanalBD"
