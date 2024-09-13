@@ -8,9 +8,9 @@ export default function CanalBD() {
           <h1>Nos livres sur CanalBD</h1>
 
           <ul className="fs-4 list-unstyled">
-            <li>Commande en ligne</li>
-            <li>Retrait en librairie</li>
-            <li>La librairie vous livre</li>
+            <li>Commandez en ligne et:</li>
+            <li>Récuperez vos livres en librairie ou</li>
+            <li>La librairie vous les expédie</li>
           </ul>
         </div>
 
