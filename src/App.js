@@ -46,9 +46,9 @@ function App() {
         author="Hagrid - Harry Potter à l'école des sorciers (J.K. Rowling)"
       />
 
-      <Partners />
-      <hr className="section-hr" />
       <Support />
+      <hr className="section-hr" />
+      <Partners />
     </div>
   );
 }
